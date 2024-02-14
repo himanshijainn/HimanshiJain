@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himanshi Jain - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/Himanshi_Jain.ico" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="untoldcoding" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="untoldcoding">Himanshi Jain</h1>
+
+          <p class="title">Graphic & UI/UX Designer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:himanshijain053@gmail.com" class="contact-link">himanshijain053@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 7014744297</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">July 12, 2002</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Gurugram, India</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.behance.net/himanshiiijain" class="social-link">
+              <ion-icon name="logo-behance"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/himanshijainn" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/himanshi-jain-a589691b5/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Creative Graphic and UI/UX Designer from Gurugram, India. I enjoy turning
+            complex problems into simple, beautiful and intuitive designs.
+          </p>
+
+          <p>
+            My job is to create attratctive designs for my clients. Moreover, I add
+            personal touch to product and make sure that is eye-catching
+            and attractive. My aim is to bring across message and
+            identity in the most creative way.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a
+                  professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  High-quality design of sites at the professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile app design</h4>
+
+                <p class="service-item-text">
+                  Professional design of applications for iOS and
+                  Android.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photo Editing</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional
+                  level.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Tools</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Adobe Illustrator
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Illustrator isn't just software—it's my artistic companion. With roots in design from childhood,
+                    I've mastered its tools to create captivating illustrations and bring imagination to reality. From
+                    intricate logos to intricate designs, Illustrator has been my trusted ally for seamlessly blending
+                    creativity and precision. Its versatility and powerful features make it essential for both personal
+                    and professional projects.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Adobe Photoshop
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Photoshop isn't just a tool—it's my creative canvas. I've explored its depths,
+                    manipulating images and crafting stunning visuals. From enhancing memories to professional editing
+                    for branding and packaging, Photoshop has been my trusted companion. Its endless possibilities and
+                    powerful features make it indispensable for both personal and professional endeavors.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Figma
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Using Figma isn't just about design—it's a passion. I've honed my skills, creating
+                    captivating visuals that resonate. Now, I seamlessly integrate Figma into both personal projects and
+                    professional endeavors, crafting memorable experiences and sleek branding with ease.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Adobe XD
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Adobe XD isn't just software; it's my creative playground. I've used it to design
+                    seamless user experiences and visually stunning interfaces. Its intuitive interface and powerful
+                    features make it essential for both personal and professional projects.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-5.png" alt="Henry william" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Adobe InDesign
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Adobe InDesign isn't just a program—it's my creative hub. I've utilized its
+                    versatile tools to craft beautiful layouts and bring ideas to life. From designing magazines to
+                    creating marketing materials, InDesign has been my go-to for seamlessly blending creativity and
+                    functionality. Its intuitive interface and powerful features make it indispensable for both personal
+                    and professional projects.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-6.png" alt="Henry william" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  VS Code
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    VS Code isn't just an editor—it's my coding sanctuary. From the early days of my journey, I've
+                    embraced its simplicity and power, writing clean, efficient code and bringing ideas to life. Whether
+                    it's building websites or developing applications, VS Code has been my steadfast companion. Its
+                    intuitive interface and vast ecosystem of extensions make it essential for both personal projects
+                    and professional endeavors.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Adobe Illustrator</h4>
+
+
+
+              <div data-modal-text>
+                <p>
+                  Illustrator isn't just software—it's my artistic companion. With roots in design from childhood, I've
+                  mastered its tools to create captivating illustrations and bring imagination to reality. From
+                  intricate logos to intricate designs, Illustrator has been my trusted ally for seamlessly blending
+                  creativity and precision. Its versatility and powerful features make it essential for both personal
+                  and professional projects.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
+          - clients -->
+
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Hobbies</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+
+              <img src="./assets/images/logo-1-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+
+              <img src="./assets/images/logo-2-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+
+              <img src="./assets/images/logo-3-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+
+              <img src="./assets/images/logo-4-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+
+              <img src="./assets/images/logo-5-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+
+              <img src="./assets/images/logo-6-color.png" alt="client logo" />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Master's of Computer Applications
+              </h4>
+
+              <span>2022 — 2024</span>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor's of Computer Applications</h4>
+
+              <span>2019 — 2022</span>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Kendriya Vidyalaya No.2 Jaipur
+              </h4>
+
+              <span>Senior Secondary — 2019</span>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Kendriya Vidyalaya No.2 Jaipur
+              </h4>
+
+              <span>Secondary — 2017</span>
+
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">UI/UX Designer</h4>
+
+              <span>Feb 2023 — Present</span>
+
+              <p class="timeline-text">
+                I created Figma wireframes, prototypes, and mockups for seamless user experiences, conducting research
+                and usability testing to optimize designs. Prioritizing user-centric principles, I ensured precision and
+                efficiency in execution, integrating innovative concepts while proactively solving design challenges
+                with the team.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Backend Developer</h4>
+
+              <span>Sep 2022 — Jan 2023</span>
+
+              <p class="timeline-text">
+                I developed and maintained APIs in Node-RED, ensuring smooth data flow and communication across systems.
+                Utilizing Postman for thorough testing and documentation, I resolved backend issues promptly to
+                guarantee system reliability. I engineered APIs for seamless integration and efficiency, contributing to
+                robust, scalable solutions following industry best practices.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web & Mobile app design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Backend</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design & development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile application design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphic design</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design & development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile applications design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphic design</button>
+              </li>
+
+
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web design & development">
+              <a
+                href="https://www.figma.com/proto/6mzE2MymkJfPB2Nlx2UW2t/Apple-Watch-Store-Landing-Page-Design?page-id=0%3A1&type=design&node-id=102-102&viewport=52%2C494%2C0.14&t=TsH3zXh3wJIDbZ1x-1&scaling=scale-down&starting-point-node-id=102%3A102">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">App landing page</h3>
+
+                <p class="project-category">Figma</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design & development">
+              <a href="https://xd.adobe.com/view/21521990-2ee2-478d-8456-f27a9ff42020-7401/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Pen parallax landing page</h3>
+
+                <p class="project-category">Adobe XD</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design & development">
+              <a href="https://cancerblog-hj.vercel.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="fundo" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Cancer blog</h3>
+
+                <p class="project-category">HTML,CSS,JS</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design & development">
+              <a href="https://gallery-git-main-himanshijainn.vercel.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Gallery</h3>
+
+                <p class="project-category">HTML,CSS,JS</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design & development">
+              <a href="https://hangmangame-himanshijainn.vercel.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Hangman game</h3>
+
+                <p class="project-category">HTML,CSS,JS</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design & development">
+              <a href="https://musicplayer-himanshijainn.vercel.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Music player</h3>
+
+                <p class="project-category">HTML,CSS,JS</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="mobile application design">
+              <a
+                href="https://www.figma.com/proto/WrITDjjYp2cuMGmsB6CgeV/Social-media?page-id=0%3A1&type=design&node-id=103-573&viewport=122%2C82%2C0.13&t=nAUf2tTBbBeQiwa4-1&scaling=contain&starting-point-node-id=103%3A573">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Social media app</h3>
+
+                <p class="project-category">Figma</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="mobile application design">
+              <a href="https://xd.adobe.com/view/77cb715f-7d22-465d-8636-4e07da521199-2298/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="task manager" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">E-commerce app design</h3>
+
+                <p class="project-category">Adobe XD</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="mobile application design">
+              <a
+                href="https://www.figma.com/proto/8PozSURitxyTouU5A5h2Vl/Movie-bookig-app?page-id=0%3A1&type=design&node-id=102-74&viewport=-281%2C-422%2C0.67&t=fuMlsfkHym3gSnPO-1&scaling=scale-down&starting-point-node-id=102%3A74">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Movie booking app design</h3>
+
+                <p class="project-category">Figma</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphic design">
+              <a href="https://www.behance.net/gallery/181404461/Designs-that-attracts-your-soul">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-10.png" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Random logos</h3>
+
+                <p class="project-category">Logo design</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphic design">
+              <a href="https://www.behance.net/gallery/181404461/Designs-that-attracts-your-soul">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-11.png" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Double exposure</h3>
+
+                <p class="project-category">Photoshop editing</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphic design">
+              <a href="https://www.behance.net/gallery/187163937/Restaurant">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-12.png" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Logo creation</h3>
+
+                <p class="project-category">Logo design</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphic design">
+              <a href="https://www.behance.net/gallery/188378661/Wedding-Card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-13.png" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Wedding card</h3>
+
+                <p class="project-category">Photoshop & Illustrator</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphic design">
+              <a href="https://www.behance.net/gallery/186066401/Business-Card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-14.png" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Business card</h3>
+
+                <p class="project-category">Photoshop & Illustrator</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphic design">
+              <a href="https://www.behance.net/gallery/186067255/Branding-Packaging">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-15.png" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Branding & Packaging</h3>
+
+                <p class="project-category">Photoshop & Illustrator</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <H3>It's good to see you here ! :) </H3>
+        <p>Let's get this conversation started. Tell us a bit about your requirements, and we'll start work together.
+        </p> <br>
+
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+
+              <ion-icon name="paper-plane"></ion-icon>
+              <a href="mailto:himanshijain053@gmail.com">
+                <span>Send Message </span> </a>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
